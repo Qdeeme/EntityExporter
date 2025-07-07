@@ -1,5 +1,5 @@
 # EntityExporter
-Simply fabricMod entity exporter to json file.
+Simply fabricMod entity exporter to json file into instance folder.
 
 Coded with ChatGPT, some bugs may occur.
 
