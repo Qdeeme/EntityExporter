@@ -26,7 +26,13 @@ And each export command creates new .JSON file.
 
 # SIMPLE, EASY, FAST
 
+### Mod is available on Modrinth
+### https://modrinth.com/mod/entity-exporter
 
+
+
+
+# DEPENDENCIES
 
 Curret version:
 1.20.1 Minecraft 
