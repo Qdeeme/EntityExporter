@@ -1,0 +1,21 @@
+{
+    "authors": [
+        "Qdeeme"
+    ],
+    "depends": {
+        "fabric": "*",
+        "fabricloader": ">=0.16.0",
+        "minecraft": "1.20.1"
+    },
+    "description": "Exports all Entity types to EntityList.json",
+    "entrypoints": {
+        "main": [
+            "com.qdee.entitylist.EntityList"
+        ]
+    },
+    "id": "entityexporter",
+    "license": "MIT",
+    "name": "EntityExporter",
+    "schemaVersion": 1,
+    "version": "1.0.0"
+}
