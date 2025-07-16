@@ -4,6 +4,9 @@
 
 ## How does it work?
 ### It stores all the entity that's been registered by minecraft and prints/exports these while called by a command.
+Supports moded entities and moded entity_groups.
+
+
 Mod adds 7 commands into the game:
 ```
 /entitylist all export - Export entities to JSON file
