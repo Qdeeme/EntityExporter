@@ -48,7 +48,6 @@ public class EntityListCommands {
                             FileManager.exportToJsonMAP(entities, "all_entities_list.json", server);
                             source.sendFeedback(() -> Text.literal("All entities exported to " + FileManager.getFilePath("all_entities_list.json"))
                                 .formatted(Formatting.GREEN), false);
-                            // FileManager already sends success message
                         } catch (Exception e) {
                             source.sendFeedback(() -> Text.literal("Error exporting all entities list: " + e.getMessage())
                                 .formatted(Formatting.RED), false);
@@ -79,7 +78,6 @@ public class EntityListCommands {
                             FileManager.exportToJson(entities, "all_hostile_list.json", server);
                             source.sendFeedback(() -> Text.literal("Hostiles list exported to " + FileManager.getFilePath("all_hostile_list.json"))
                                 .formatted(Formatting.GREEN), false);
-                            // FileManager already sends success message
                         } catch (Exception e) {
                             source.sendFeedback(() -> Text.literal("Error exporting all hostile list: " + e.getMessage())
                                 .formatted(Formatting.RED), false);
@@ -107,7 +105,6 @@ public class EntityListCommands {
                             FileManager.exportToJson(entities, "all_creature_list.json", server);
                             source.sendFeedback(() -> Text.literal("Creatures list exported to " + FileManager.getFilePath("all_creature_list.json"))
                                 .formatted(Formatting.GREEN), false);
-                            // FileManager already sends success message
                         } catch (Exception e) {
                             source.sendFeedback(() -> Text.literal("Error exporting all creature list: " + e.getMessage())
                                 .formatted(Formatting.RED), false);
