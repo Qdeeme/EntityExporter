@@ -1,5 +1,5 @@
 # EntityExporter
-### Simply fabricMod working as entity exporter to json file into instance folder.
+### Simply fabricMod working as entity exporter to json files into instance folder.
 
 
 ## How does it work?
