@@ -1,5 +1,5 @@
 # How does it work?
-## It prints/exports all the entities that's been registered by minecraft while called by a command.
+## Use a command to print in chat or export to .json file all entities registered by the game.
 
 Supports moded entities and moded entity_groups.
 It's been created for all modpack/mod creators as a utility for quick checks of all entities registered.
@@ -20,11 +20,17 @@ By default, all the data are exported into the instance folder:
 ```
 C:\Users\[user]\AppData\Roaming\Minecraft\[instance]\Entity_list
 ```
-And each export command creates new .JSON file.
+Following the pattern in alfabetical order:
+```[modid]:[entity]```
+
+By default, all the data are exported into the instance folder:
+```C:\Users\[user]\AppData\Roaming\Minecraft\[instance]\Entity_list```
+
+And each export command creates new .JSON file unless it already exists.
 
 # SIMPLE, EASY, FAST
 
-### Mod is available on Modrinth
+### Mod is available on Modrinth and CurseForge
 ### https://modrinth.com/mod/entity-exporter
 
 
