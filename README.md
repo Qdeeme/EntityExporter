@@ -1,10 +1,11 @@
 # How does it work?
 ## Use a command to print in chat or export to .json file all entities registered by the game.
 
-Supports moded entities and moded entity_groups.
+**Supports moded entities and moded entity_groups.**
+
 It's been created for all modpack/mod creators as a utility for quick checks of all entities registered.
 
-Mod adds 8 commands into the game:
+**Mod adds 8 commands into the game:**
 
 ```
 /entitylist groups - Prints in chat all the entity groups registered.
