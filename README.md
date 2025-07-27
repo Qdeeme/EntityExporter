@@ -34,6 +34,7 @@ And each export command creates new .JSON file unless it already exists.
 # SIMPLE, EASY, FAST
 
 ### Mod is available on Modrinth and CurseForge
+### https://www.curseforge.com/minecraft/mc-mods/entityexporter
 ### https://modrinth.com/mod/entity-exporter
 
 
