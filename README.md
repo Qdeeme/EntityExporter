@@ -21,10 +21,13 @@ By default, all the data are exported into the instance folder:
 C:\Users\[user]\AppData\Roaming\Minecraft\[instance]\Entity_list
 ```
 Following the pattern in alfabetical order:
-```[modid]:[entity]```
-
+```
+[modid]:[entity]
+```
 By default, all the data are exported into the instance folder:
-```C:\Users\[user]\AppData\Roaming\Minecraft\[instance]\Entity_list```
+```
+C:\Users\[user]\AppData\Roaming\Minecraft\[instance]\Entity_list
+```
 
 And each export command creates new .JSON file unless it already exists.
 
