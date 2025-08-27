@@ -1,11 +1,18 @@
-# How does it work?
-## Use a command to print in chat or export to .json file all entities registered by the game.
+## Ever wondered what entities are actually loaded in your game or modpack?
+**Entity Exporter** utility is a lightweight tool that gives you instant access to every entity registered by Minecraft – vanilla and modded alike.
 
-**Supports moded entities and moded entity_groups.**
+With a single command, you can:
+- ✅ Print entities directly in chat
+- ✅ Export them into clean, structured .json files
+- ✅ View them by category: 
+    > - all (separated by groups)
+    > -  hostile
+    > - creature 
+  > - groups
 
-It's been created for all modpack/mod creators as a utility for quick checks of all entities registered.
-
-**Mod adds 8 commands into the game:**
+Perfect for modpack creators, developers and testers who need a quick way to check what’s in the registry without digging through configs or code.
+***
+### Mod adds 8 commands into the game:
 
 ```
 /entitylist groups - Prints in chat all the entity groups registered.
@@ -17,41 +24,18 @@ It's been created for all modpack/mod creators as a utility for quick checks of 
 /entitylist creature print - Print all creature entities in chat
 /entitylist help - Prints all these commands.
 ```
-By default, all the data are exported into the instance folder:
+### 📂 Export Location
+
 ```
 C:\Users\[user]\AppData\Roaming\Minecraft\[instance]\Entity_list
 ```
-Following the pattern in alfabetical order:
+### Following the pattern in alfabetical order:
 ```
 [modid]:[entity]
 ```
-By default, all the data are exported into the instance folder:
-```
-C:\Users\[user]\AppData\Roaming\Minecraft\[instance]\Entity_list
-```
 
-And each export command creates new .JSON file unless it already exists.
+And each export command creates new `.JSON` file unless it already exists.
+***
+### ⚡ SIMPLE. FAST. HASSLE-FREE.
 
-# SIMPLE, EASY, FAST
-
-### Mod is available on Modrinth and CurseForge
-### https://www.curseforge.com/minecraft/mc-mods/entityexporter
-### https://modrinth.com/mod/entity-exporter
-
-
-
-
-# DEPENDENCIES
-
-Curret version:
-1.20.1 Minecraft 
-
-Fabric Loader:
-=> 0.16.0
-
-Fabric API:
-=> 0.90.0+1.20.1
-
-
-
-All tested, all working fine, but keep in mind, that some bugs may occur.
+_Entity Exporter doesn’t change entities – it just makes them visible, so you can always know what’s registered in your game._
